@@ -30,7 +30,7 @@ chmod +x kubectl
 sudo mv kubectl /usr/local/bin/
 kubectl version -o yaml
 
-
+sudo usermod -aG docker $USER && newgrp docker
 echo "Start the minikube"
 minikube start 
 minikube status

@@ -14,6 +14,7 @@ chown -R nexus:nexus /opt/nexus
 
 vim /opt/nexus/bin/nexus.vmoptions
 vim /opt/nexus/bin/nexus.rc
+sudo -u nexus /opt/nexus/bin/nexus start
 
 
 

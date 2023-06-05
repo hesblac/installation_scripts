@@ -12,7 +12,9 @@ wget 	https://download.sonatype.com/nexus/3/nexus-3.52.0-01-unix.tar.gz
 tar xzf nexus-3.52.0-01-unix.tar.gz -C /opt/nexus --strip-components=1
 chown -R nexus:nexus /opt/nexus
 
-nano /opt/nexus/bin/nexus.vmoptions
+vim /opt/nexus/bin/nexus.vmoptions
+vim /opt/nexus/bin/nexus.rc
+
 
 
 

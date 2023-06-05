@@ -1,7 +1,9 @@
 apt-get update -y
 
 sudo apt-get update -y
-sudo apt-get install openjdk-17-jdk -y
+#sudo apt-get install openjdk-17-jdk -y
+sudo apt install openjdk-8-jdk
+
 java -version
 
 echo "Install Nexus"

@@ -21,6 +21,8 @@ chown -R nexus:nexus /opt/nexus
 # sudo vim /opt/nexus/bin/nexus.vmoptions
 # sudo vim /opt/nexus/bin/nexus.rc
 # sudo -u nexus /opt/nexus/bin/nexus start
+# sudo cat /opt/nexus/sonatype-work/nexus3/admin.password 
+
 
 
 
